@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Natural Health & Wellness</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="Natural Wellness Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Our Products</h1>
+            <div class="product">
+                <h3 onclick="toggleDetails('herb-details')">Organic Chamomile Tea</h3>
+                <div id="herb-details" class="details hidden">
+                    <p><strong>Ingredients:</strong> Organic chamomile flowers</p>
+                    <p><strong>Benefits:</strong> Promotes relaxation and better sleep</p>
+                    <p><strong>Usage:</strong> Steep 1 tsp in hot water for 5 minutes</p>
+                </div>
+            </div>
+            <div class="product">
+                <h3 onclick="toggleDetails('supplement-details')">Brain Health Supplement</h3>
+                <div id="supplement-details" class="details hidden">
+                    <p><strong>Ingredients:</strong> Ginkgo biloba, omega-3</p>
+                    <p><strong>Benefits:</strong> Enhances memory and focus</p>
+                    <p><strong>Usage:</strong> Take 1 capsule daily with food</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Natural Health & Wellness. All rights reserved.</p>
+    </footer>
+</body>
+</html>
